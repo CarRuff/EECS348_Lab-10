@@ -1,10 +1,11 @@
-#ifndef __CALCULATOR_HPP
-#define __CALCULATOR_HPP
+#ifndef CALCULATOR_HPP
+#define CALCULATOR_HPP
 
 #include <string>
+using namespace std;
 
-// this function should expect that `expression` has already been
-// validated and thus throw no exceptions
-double parse_number(const std::string &expression);
+string addStrings(string x, string y);
+string subtractStrings(string x, string y);
+string mathStrings(string x, string y);
 
-#endif // __CALCULATOR_HPP
+#endif
